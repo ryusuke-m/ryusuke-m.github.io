@@ -1,8 +1,9 @@
 ---
 layout: home
-title: "Home"
+# title: "Home"
 lang: ja
 ---
+
 I am an PhD student in Science Tokyo, Japan.
 東京科学大学博士課程に在学する学生です．
 
