@@ -1,6 +1,15 @@
 ---
 layout: home
+title: "Home"
+lang: ja
 ---
-# Welcome to my page!
+I am an PhD student in Science Tokyo, Japan.
+東京科学大学博士課程に在学する学生です．
 
-ryusuke-
+## Reserch Interasts
+
+## Other Interasts
+
+## News
+
+- [2026/02/25] Created this page.
