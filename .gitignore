@@ -1,0 +1,10 @@
+# Gemのインストール先を無視
+/vendor/bundle/
+
+# Jekyllのビルド結果（公開用ファイル）を無視
+/_site/
+
+# キャッシュや一時ファイルを無視
+/.jekyll-cache/
+/.jekyll-metadata
+.bundle/
