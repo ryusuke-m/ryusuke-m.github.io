@@ -1,4 +1,4 @@
 theme: minima
 title: Ryusuke Miyazaki's Page
-baseurl: "/ryusuke-m" # リポジトリ名を指定（先頭にスラッシュが必要）
+baseurl: "/ryusuke-m.github.io" # リポジトリ名を指定（先頭にスラッシュが必要）
 url: "https://ryusuke-m.github.io"
