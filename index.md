@@ -4,8 +4,9 @@ title: "Home"
 lang: ja
 ---
 
-I am an PhD student in Science Tokyo, Japan.
-東京科学大学博士課程に在学する学生です．
+I am a Master student at [Koike Laboratory](https://www.vogue.cs.titech.ac.jp/), Science Tokyo, Japan.
+
+東京科学大学修士課程に在学する学生です．[小池研究室](https://www.vogue.cs.titech.ac.jp/)所属．
 
 ## Reserch Interasts
 
