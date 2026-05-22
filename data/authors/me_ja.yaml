@@ -1,0 +1,113 @@
+schema: hugoblox/author/v1
+slug: me_ja
+is_owner: true
+name:
+  display: 宮崎 竜輔
+  given: 竜輔
+  family: 宮崎
+  alternate: Ryusuke Miyazaki
+  pronunciation: Ryusuke Miyazaki
+ 
+postnominals:
+  - PhD
+  - MIEEE
+status:
+  icon: "☕️"
+role: 博士後期課程
+bio: |
+  東京科学大学 情報理工学院 物質・情報卓越コースの学生です．宮藤研究室でHCI分野の研究を行っています．
+
+affiliations:
+  - name: 東京科学大学
+    url: http://isct.ac.jp/ja
+
+links:
+  - icon: at-symbol
+    url: mailto:dummy@example.com
+    label: E-mail Me
+  # - icon: brands/x
+  #   url: https://x.com/example
+  - icon: brands/github
+    url: https://github.com/ryusuke-m
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/example/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=19zQj5oAAAAJ&hl=ja
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-0962-4499
+
+interests:
+  - ヒューマン-コンピュータ インタラクション
+  - コンピュータビジョン
+  - 視覚拡張
+  - 高速プロジェクタ/ディスプレイ
+
+education:
+  # - degree: PhD Computer Science
+  #   institution: スタンフォード大学
+  #   start: 2015-09-01
+  #   end: 2019-06-30
+  #   summary: |
+  #     ニューラル言語モデルのScaling lawに関する論文。NeurIPSおよびICMLにて5本の論文を発表。
+    # button:
+    #   text: 博士論文をダウンロード
+    #   url: /resume.pdf
+    #   icon: hero/arrow-down-tray
+  - degree: 修士(工学)
+    institution: 東京科学大学 (旧東京工業大学)
+    start: 2024-04-01
+    end: 2026-03-26
+  - degree: 学士(工学)
+    institution: 電気通信大学
+    start: 2019-04-01
+    end: 2024-03-31
+
+# experience:
+#   - role: シニアAIリサーチサイエンティスト
+#     org: Meta AI
+#     start: 2020-01-01
+#     summary: |
+#       マルチモーダルAIシステムに関する研究を主導。Llama 2やその他のオープンソースモデルの開発に貢献。
+#     button:
+#       text: ポートフォリオを見る
+#       url: /
+#       icon: hero/arrow-down-tray
+#   - role: AIリサーチインターン
+#     org: OpenAI
+#     start: 2019-06-01
+#     end: 2019-12-31
+#     summary: |
+#       GPT-3のスケーリングに従事。プロンプトエンジニアリングに関する論文を共著。
+
+# skills:
+#   - name: 技術スキル
+#     items:
+#       - label: Python
+#         level: 5
+#       - label: 機械学習
+#         level: 5
+#       - label: クラウドコンピューティング
+#         level: 4
+#   - name: 研究・コミュニケーション
+#     items:
+#       - label: 学術論文執筆
+#         level: 5
+#       - label: 学会発表
+#         level: 4
+#       - label: 助成金申請
+#         level: 4
+
+# languages:
+#   - name: 英語
+#     level: 5
+#     label: ネイティブ
+#   - name: スペイン語
+#     level: 4
+#     label: 流暢
+
+# awards:
+#   - title: ベストペーパー賞
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: 大規模モデルの効率的な学習に関する画期的な研究に対して授与。
+#     icon: hero/trophy

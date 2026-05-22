@@ -6,8 +6,23 @@
 en:
   locale: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content
+  title: Ryusuke Miyazaki's page
 
+
+ja:
+  locale: ja-jp
+  contentDir: content
+  title: 宮崎竜輔's page
+
+ko:
+  locale: ko-kr
+  contentDir: content/ko
+  # menu:
+  #   main:
+  #     - name: 日本語
+  #       url: '#about'
+  #       weight: 1
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  locale: zh-Hans
