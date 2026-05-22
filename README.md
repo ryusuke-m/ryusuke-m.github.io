@@ -1,5 +1,17 @@
 # [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
 
+## 変更内容
+
+Bibtexから引用を追加
+
+https://github.com/HugoBlox/academic-file-converter/tree/main
+
+```bash
+academic import --bibtex acm.bib --publication-dir content/publications/ --featured
+```
+
+## 以下元のREADME
+
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)
 
 <!-- TODO: Replace with a short demo video showing Hugo Chat generating an academic profile page -->
