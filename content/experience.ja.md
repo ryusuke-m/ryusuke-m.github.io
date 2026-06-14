@@ -30,5 +30,3 @@ sections:
       title: Languages
       username: me
 ---
-## Skills
-テストテスト

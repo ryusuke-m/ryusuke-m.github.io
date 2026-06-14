@@ -51,6 +51,11 @@ education:
     #   text: 博士論文をダウンロード
     #   url: /resume.pdf
     #   icon: hero/arrow-down-tray
+  - degree: 博士課程
+    institution: 東京科学大学
+    start: 2026-04-01
+    summary: |
+      情報理工学院 物質・情報卓越コース
   - degree: 修士(工学)
     institution: 東京科学大学 (旧東京工業大学)
     start: 2024-04-01
@@ -60,31 +65,31 @@ education:
     start: 2019-04-01
     end: 2024-03-31
 
-experience:
-  - role: 博士課程
-    org: 東京科学大学
-    start: 2026-04-01
-    summary: |
-      情報理工学院 物質・情報卓越コース
+# experience:
+#   - role: 博士課程
+#     org: 東京科学大学
+#     start: 2026-04-01
+#     summary: |
+#       情報理工学院 物質・情報卓越コース
     # button:
     #   text: ポートフォリオを見る
     #   url: /
     #   icon: hero/arrow-down-tray
 
-skills:
-  - name: 資格
-    items:
-      - label: 応用情報技術者試験(AP) 合格 - 2023年6月
-      - label: エンベデッドシステムスペシャリスト試験(ES) 合格 - 2023年12月
-      - label: 情報処理安全確保支援士試験(SC) 合格 - 2025年12月
-  # - name: 研究・コミュニケーション
-  #   items:
-  #     - label: 学術論文執筆
-  #       level: 5
-  #     - label: 学会発表
-  #       level: 4
-  #     - label: 助成金申請
-  #       level: 4
+# skills:
+#   - name: 資格
+#     items:
+#       - label: 応用情報技術者試験(AP) 合格 - 2023年6月
+#       - label: エンベデッドシステムスペシャリスト試験(ES) 合格 - 2023年12月
+#       - label: 情報処理安全確保支援士試験(SC) 合格 - 2025年12月
+#   - name: 研究・コミュニケーション
+#     items:
+#       - label: 学術論文執筆
+#         level: 5
+#       - label: 学会発表
+#         level: 4
+#       - label: 助成金申請
+#         level: 4
 
 # languages:
 #   - name: 英語

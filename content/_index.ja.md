@@ -35,14 +35,10 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 研究'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        工事中
     design:
       columns: '1'
   - block: collection
@@ -67,22 +63,13 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
     id: news
     content:
-      title: Recent News
+      title: ニュース
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: blog
+      page_type: news
       # Choose how many pages you would like to display (0 = all pages)
       count: 10
       # Filter on criteria
@@ -100,7 +87,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
+      view: article-grid
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]

@@ -56,6 +56,11 @@ education:
   #     text: Download dissertation
   #     url: /resume.pdf
   #     icon: hero/arrow-down-tray
+  - degree: Ph. D. Candidate
+    institution: Institute of Science Tokyo
+    start: 2026-04-01
+    summary: |
+      School of Computing, Department of Computer Science, Graduate Major in Materials and Information Sciences
   - degree: Master of Engineering
     institution: Institute of Science Tokyo (Tokyo Institute of Technology)
     start: 2024-04-01
@@ -67,6 +72,12 @@ education:
     start: 2019-04-01
     end: 2024-03-31
 
+# experience:
+  # - degree: Ph. D. Candidate
+  #   institution: Institute of Science Tokyo
+  #   start: 2026-04-01
+  #   summary: |
+  #     School of Computing, Department of Computer Science, Graduate Major in Materials and Information Sciences
 # experience:
 #   - role: Senior AI Research Scientist
 #     org: Meta AI

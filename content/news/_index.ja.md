@@ -1,10 +1,9 @@
 ---
-title: 論文
+title: ニュース
 # cms_exclude: true
 
 # View.
-view: citation
-#https://hugoblox.com/blocks/collection
+view: article-grid
 
 # Optional header image (relative to `static/media/` folder).
 banner:
