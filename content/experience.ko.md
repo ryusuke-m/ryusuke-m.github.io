@@ -9,6 +9,14 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 # Page sections
 sections:
+  - block: markdown
+    content:
+      title: ''
+      text: |-
+        > [!NOTE]
+        > 이 페이지는 일본어 원문을 기계 번역한 것입니다. (このページは日本語からの機械翻訳です)
+    design:
+      columns: '1'
   - block: resume-experience
     content:
       username: me
@@ -30,6 +38,3 @@ sections:
       title: 언어
       username: me
 ---
-
-> [!NOTE]
-> 이 페이지는 일본어 원문을 기계 번역한 것입니다. (このページは日本語からの機械翻訳です)
