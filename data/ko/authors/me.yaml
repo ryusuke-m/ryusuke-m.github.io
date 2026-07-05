@@ -1,0 +1,59 @@
+schema: hugoblox/author/v1
+slug: me_ko
+is_owner: true
+name:
+  display: 미야자키 류스케
+  given: 류스케
+  family: 미야자키
+  # alternate: Ryusuke Miyazaki
+  # pronunciation: Ryusuke Miyazaki
+ 
+
+status:
+  icon: "🔬"
+role: 박사 후기 과정
+bio: |
+  > [!NOTE]
+  > 이 페이지는 일본어 원문을 기계 번역한 것입니다. (このページは日本語からの機械翻訳です)
+
+  도쿄과학대학 정보이공학원 물질·정보 탁월 코스 학생입니다. 미야후지 연구실에서 HCI 분야 연구를 진행하고 있습니다.
+
+affiliations:
+  - name: 도쿄과학대학
+    url: http://isct.ac.jp/ja
+
+links:
+  - icon: at-symbol
+    url: mailto:dummy@example.com
+    label: E-mail Me
+  # - icon: brands/x
+  #   url: https://x.com/example
+  - icon: brands/github
+    url: https://github.com/ryusuke-m
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/example/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=19zQj5oAAAAJ&hl=ja
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-0962-4499
+
+interests:
+  - 인간-컴퓨터 상호작용
+  - 컴퓨터 비전
+  - 시각 증강
+  - 고속 프로젝터/디스플레이
+
+education:
+  - degree: 박사 과정
+    institution: 도쿄과학대학
+    start: 2026-04-01
+    summary: |
+      정보이공학원 물질·정보 탁월 코스
+  - degree: 석사(공학)
+    institution: 도쿄과학대학 (구 도쿄공업대학)
+    start: 2024-04-01
+    end: 2026-03-26
+  - degree: 학사(공학)
+    institution: 전기통신대학
+    start: 2019-04-01
+    end: 2024-03-31
