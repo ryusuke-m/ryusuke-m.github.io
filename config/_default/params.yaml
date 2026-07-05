@@ -1,13 +1,10 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: Ryusuke Miyazaki - These pages are under constraction
+    name: "Ryusuke Miyazaki | 宮崎 竜輔 - HCI Researcher (Under Construction)"
     type: person
-    tagline: Doctorial Student
-    description: |-
-      Ryusuke Miyazaki is a Doctorial Student in Institute of Science Tokyo, Japan.
-      He belongs to TAC-MI (Graduate Major in Materials and Information Sciences
-      Academ)
+    tagline: Doctoral Student
+    description: "Ryusuke Miyazaki (宮崎 竜輔) is a Doctoral Student at the Institute of Science Tokyo, Japan, researching Human-Computer Interaction (HCI). *This website is currently under construction.*"
   theme:
     mode: system
     pack: default
