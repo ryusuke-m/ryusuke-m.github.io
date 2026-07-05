@@ -22,7 +22,7 @@ role: Doctoral Student
 #   while ensuring ethical development.
 
 affiliations:
-  - name: Institute of Science Tokyo
+  - name: Institute of Science Tokyo (Science Tokyo / 東京科学大学)
     url: https://www.isct.ac.jp/ja
 
 links:
@@ -57,10 +57,10 @@ education:
   #     url: /resume.pdf
   #     icon: hero/arrow-down-tray
   - degree: Ph. D. Candidate
-    institution: Institute of Science Tokyo
+    institution: Institute of Science Tokyo (Science Tokyo / 東京科学大学)
     start: 2026-04-01
     summary: |
-      School of Computing, Department of Computer Science, Graduate Major in Materials and Information Sciences
+      School of Computing, Department of Computer Science, Graduate Major in Materials and Information Sciences (TAC-MI / 物質・情報卓越コース / 物質情報卓越コース) - Supported by the post-SPRING program
   - degree: Master of Engineering
     institution: Institute of Science Tokyo (Tokyo Institute of Technology)
     start: 2024-04-01
