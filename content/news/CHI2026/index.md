@@ -1,32 +1,35 @@
 ---
-title: Attended ACM CHI 2026
+title: ACM CHI 2026 に参加しました
 summary: Attended ACM CHI 2026
 date: 2023-04-20
 authors:
   - me
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Conference
+  - CHI
 cover:
-  image: "photo.webp"
+  image: photo.webp
   position:
     x: 50
     y: 40
   overlay:
     enabled: true
-    type: "gradient"
+    type: gradient
     opacity: 0.4
-    gradient: "bottom"
+    gradient: bottom
   fade:
     enabled: true
-    height: "80px"
-
+    height: 80px
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
----
+  caption: "Image credit: [**Unsplash**](https://unsplash.com)"
 
-I attended [ACM CHI 2026](https://chi2026.acm.org/).
+---
+# 概要
+[ACM CHI 2026](https://chi2026.acm.org/)に参加し，デモ発表を行いました．
+
+## デモ発表
+
+## 感想
 
 
 

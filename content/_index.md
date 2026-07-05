@@ -12,9 +12,9 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -35,10 +35,10 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 研究'
       subtitle: ''
       text: |-
-        TBD
+        工事中
     design:
       columns: '1'
   - block: collection
@@ -62,19 +62,10 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - events
-  #   design:
-  #     view: card
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: ニュース
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

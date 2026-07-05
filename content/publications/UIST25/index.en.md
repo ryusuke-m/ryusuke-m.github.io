@@ -3,14 +3,14 @@ title: A Display Method Visible Only During Gaze Fixation on Moving Objects usin
   High-Speed Projection and Striped Pattern
 date: '2025-10-01'
 draft: false
-publishDate: '2025-01-01T07:27:41.826688Z'
+publishDate: "2017-01-01T00:00:00Z"
 authors:
 - Ryusuke Miyazaki
 - Shio Miyafuji
 - Kyeongwan Kim
 - Hideki Koike
-publication_types: ['paper-conference']
-
+publication_types:
+- '1'
 abstract: 'We present a novel display method that can be perceived only when users
   gaze at the other object moving in a specific direction. This method employs high-speed
   projection of a striped pattern, allowing users to perceive different images corresponding
@@ -20,17 +20,14 @@ abstract: 'We present a novel display method that can be perceived only when use
   a finger, and a pedestrian signage that becomes visible solely to people who keep
   their gaze on a smartphone while walking.'
 featured: true
-
 publication: '*Adjunct Proceedings of the 38th Annual ACM Symposium on User Interface
   Software and Technology*'
-
 tags:
 - High-speed projection
 - Interaction devices
 - Human perception
 - Gaze
 doi: 10.1145/3746058.3759000
-
 links:
 - name: URL
   url: https://doi.org/10.1145/3746058.3759000

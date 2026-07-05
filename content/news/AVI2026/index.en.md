@@ -1,14 +1,15 @@
 ---
-title: AVI 2026 に参加しました
+title: Attended AVI 2026
 summary: Attended AVI 2026
-date: 2023-06-12
+date: 2023-04-20
 authors:
   - me
 tags:
-  - Conference
-  - AVI
+  - Hugo
+  - Hugo Blox
+  - Markdown
 cover:
-  # image: "photo.webp"
+  image: "photo.webp"
   position:
     x: 50
     y: 40
@@ -24,11 +25,8 @@ cover:
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
-# 概要
 
-## デモ発表
-
-## 感想
+I attended [AVI 2026](https://www.unive.it/web/en/15667/home).
 
 
 

@@ -40,4 +40,4 @@ links:
 - name: URL
   url: https://doi.org/10.1145/3756884.3766051
 ---
-VRST2025にて発表
+
