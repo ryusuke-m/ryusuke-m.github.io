@@ -1,5 +1,6 @@
 ---
 title: 'Projects'
+summary: 'Research and development projects by Ryusuke Miyazaki (宮崎 竜輔): volumetric displays, gaze-dependent displays, multi-legged robots, and more.'
 date: 2026-10-06
 type: landing
 

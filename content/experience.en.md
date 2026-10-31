@@ -1,5 +1,6 @@
 ---
 title: 'Experience'
+summary: 'Experience and education of Ryusuke Miyazaki (宮崎 竜輔): The University of Electro-Communications, Institute of Science Tokyo.'
 date: 2023-10-24
 type: landing
 

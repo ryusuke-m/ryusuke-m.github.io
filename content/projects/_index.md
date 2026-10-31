@@ -1,5 +1,6 @@
 ---
 title: 'プロジェクト'
+summary: '宮崎 竜輔（Ryusuke Miyazaki）の研究・開発プロジェクト一覧。体積型ディスプレイ、視線誘導ディスプレイ、多脚ロボットなど。'
 date: 2026-10-06
 type: landing
 

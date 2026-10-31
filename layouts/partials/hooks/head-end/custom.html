@@ -1,2 +1,21 @@
 <meta name="google-site-verification" content="qrcHcoGplp6ZU1SaCUNHuDGbS0XuOUA8g3e7FtftHhA" />
 {{ if .Params.noindex }}<meta name="robots" content="noindex" />{{ end }}
+{{ if .IsHome }}
+{{- $a := site.Data.authors.me -}}
+{{- $same := slice -}}
+{{- range $a.links }}{{ if hasPrefix .url "http" }}{{ $same = $same | append .url }}{{ end }}{{ end -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" (cond (eq .Language.Lang "ja") "宮崎 竜輔" "Ryusuke Miyazaki")
+  "alternateName" (slice "宮崎 竜輔" "宮崎竜輔" "Ryusuke Miyazaki" "Miyazaki Ryusuke")
+  "givenName" "Ryusuke"
+  "familyName" "Miyazaki"
+  "jobTitle" "Doctoral Student"
+  "url" .Permalink
+  "affiliation" (dict "@type" "CollegeOrUniversity" "name" "Institute of Science Tokyo" "alternateName" (slice "東京科学大学" "Science Tokyo") "url" "https://www.isct.ac.jp/ja")
+  "sameAs" $same -}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{ end }}
+{{- /* hreflang x-default: point to the default-language (ja) version */ -}}
+{{- if .IsTranslated }}{{ range .AllTranslations }}{{ if eq .Language.Lang "ja" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />{{ end }}{{ end }}{{ end }}

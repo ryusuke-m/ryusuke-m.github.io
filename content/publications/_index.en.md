@@ -1,5 +1,6 @@
 ---
 title: Publications
+summary: 'Publications by Ryusuke Miyazaki (宮崎 竜輔) in HCI, including papers at UIST and MobileHCI.'
 # cms_exclude: true
 
 # View.
