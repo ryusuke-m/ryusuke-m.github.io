@@ -14,3 +14,4 @@ A robotics project focusing on the agile multi-legged locomotion and coordinatio
 Involving 3D-printed mechanical structures, multi-servo synchronized movement control, and autonomous gait generation programs.
 
 <!--more-->
+

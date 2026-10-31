@@ -5,9 +5,8 @@ date: 2023-04-20
 authors:
   - me
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Conference
+  - CHI
 cover:
   image: "photo.webp"
   position:

@@ -14,3 +14,4 @@ Research on a display system that dynamically controls displayed content and per
 By combining human perceptual characteristics with high-speed optical control, we aim to realize novel visual experiences that cannot be achieved with conventional displays.
 
 <!--more-->
+

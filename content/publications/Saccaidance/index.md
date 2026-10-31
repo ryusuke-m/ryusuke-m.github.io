@@ -11,8 +11,7 @@ authors:
 - Takefumi Hiraki
 - Yuta Itoh
 - Shio Miyafuji
-publication_types:
-- '1'
+publication_types: ['paper-conference']
 abstract: 'Gaze guidance is essential for directing user attention to specific areas
   of interest. However, conventional visual cues generate persistent visual noise
   that hinders concentration during tasks. We propose Saccaidance, a gaze-guidance

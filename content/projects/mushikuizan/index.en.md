@@ -14,3 +14,4 @@ A project developing automatic problem generation algorithms and high-speed solv
 We explored logic to generate elegant puzzles with unique solutions and created interactive solver tools.
 
 <!--more-->
+
