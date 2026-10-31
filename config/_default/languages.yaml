@@ -15,14 +15,7 @@ ja:
   contentDir: content
   title: 宮崎竜輔's page
 
-ko:
-  locale: ko-kr
-  contentDir: content
-  # menu:
-  #   main:
-  #     - name: 日本語
-  #       url: '#about'
-  #       weight: 1
+
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  locale: zh-Hans

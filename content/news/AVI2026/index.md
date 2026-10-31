@@ -26,9 +26,7 @@ image:
 ---
 # 概要
 
-## デモ発表
-
-## 感想
+2026/6/8~2026/6/12にイタリアで開催された[AVI 2026 (18th International Conference on Advanced Visual Interfaces)](https://www.unive.it/web/en/15667/home)にて口頭発表を行いました．
 
 
 

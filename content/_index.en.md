@@ -2,7 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: ''
 summary: 'Ryusuke Miyazaki (宮崎 竜輔) is a Doctoral Student at the Institute of Science Tokyo (Science Tokyo / 東京科学大学), Japan, researching Human-Computer Interaction (HCI). He belongs to TAC-MI (物質・情報卓越コース / 物質情報卓越コース) and is supported by the post-SPRING program.'
-date: 2022-10-24
+date: 2026-09-21
 type: landing
 tags: ["Ryusuke Miyazaki", "宮崎 竜輔", "HCI", "東京科学大学", "Institute of Science Tokyo", "Science Tokyo", "TAC-MI", "物質情報卓越コース", "物質・情報卓越コース", "post-SPRING"]
 
@@ -13,9 +13,9 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -36,20 +36,10 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: ''
-      subtitle: ''
-      text: |-
-        {{% callout warning %}}
-        **Notice**: This website is currently under construction. Some links or contents may not be fully available.
-        {{% /callout %}}
-    design:
-      columns: '1'
-  - block: markdown
-    content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        TBD
+        My research focuses on Human-Computer Interaction (HCI), Computer Vision, especially Vision Augmentation using High-Speed Projection/Display technologies.
     design:
       columns: '1'
   - block: collection

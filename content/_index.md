@@ -2,7 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: ''
 summary: 'Ryusuke Miyazaki (宮崎 竜輔) is a Doctoral Student at the Institute of Science Tokyo (Science Tokyo / 東京科学大学), Japan, researching Human-Computer Interaction (HCI). He belongs to TAC-MI (物質・情報卓越コース / 物質情報卓越コース) and is supported by the post-SPRING program.'
-date: 2022-10-24
+date: 2026-09-21
 type: landing
 tags: ["Ryusuke Miyazaki", "宮崎 竜輔", "HCI", "東京科学大学", "Institute of Science Tokyo", "Science Tokyo", "TAC-MI", "物質情報卓越コース", "物質・情報卓越コース", "post-SPRING"]
 
@@ -36,20 +36,10 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: ''
-      subtitle: ''
-      text: |-
-        {{% callout warning %}}
-        現在、このサイトは工事中です。一部のリンクやコンテンツが利用できない場合があります。
-        {{% /callout %}}
-    design:
-      columns: '1'
-  - block: markdown
-    content:
       title: '📚 研究'
       subtitle: ''
       text: |-
-        工事中
+        人間とコンピュータの相互作用（Human-Computer Interaction: HCI）やコンピュータビジョン，高速プロジェクション・ディスプレイを用いた視覚拡張技術に関する研究に取り組んでいます．
     design:
       columns: '1'
   - block: collection

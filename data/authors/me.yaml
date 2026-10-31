@@ -26,11 +26,11 @@ affiliations:
     url: https://www.isct.ac.jp/ja
 
 links:
-  - icon: at-symbol
-    url: mailto:dummy@example.com
-    label: E-mail Me
-  # - icon: brands/x
-  #   url: https://x.com/example
+  # - icon: at-symbol
+  #   url: miyazaki@example.com
+    # label: E-mail Me
+  - icon: brands/x
+    url: https://x.com/M2yazaki11
   - icon: brands/github
     url: https://github.com/ryusuke-m
   # - icon: brands/linkedin
