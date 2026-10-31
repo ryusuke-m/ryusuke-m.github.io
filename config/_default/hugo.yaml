@@ -27,6 +27,32 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  # Hugo Blox template sample content: keep out of the sitemap and search results (noindex)
+  - target:
+      path: '{/courses,/courses/**}'
+    sitemap:
+      disable: true
+    noindex: true
+  - target:
+      path: '{/blog,/blog/**}'
+    sitemap:
+      disable: true
+    noindex: true
+  - target:
+      path: '{/events,/events/**}'
+    sitemap:
+      disable: true
+    noindex: true
+  - target:
+      path: '{/events.backup,/events.backup/**}'
+    sitemap:
+      disable: true
+    noindex: true
+  - target:
+      path: '{/slides,/slides/**}'
+    sitemap:
+      disable: true
+    noindex: true
 
 ############################
 ## ADVANCED
