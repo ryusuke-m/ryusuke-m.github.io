@@ -1,0 +1,14 @@
+/* Classic academic look: Japanese serif fallbacks, restrained decoration */
+:root {
+  --hb-font-heading: 'Lora', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --hb-font-body: 'Source Serif 4', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --hb-font-nav: var(--hb-font-body);
+}
+body { font-family: var(--hb-font-body); }
+h1, h2, h3, h4, h5, h6 { font-family: var(--hb-font-heading); }
+main a:not([class]) { text-decoration: underline; text-underline-offset: 2px; }
+#page-bg { display: none; }
+[class*="rounded"], .page-wrapper img { border-radius: 2px !important; }
+[class*="shadow"] { box-shadow: none !important; }
+.page-header { box-shadow: none !important; border-bottom: 1px solid #d1d5db; }
+[class*="shadow-md"], [class*="shadow-sm"], [class*="shadow-lg"]:not([class*="shadow-lg"][class*="fixed"]) { border: 1px solid #e5e7eb; }

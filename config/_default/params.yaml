@@ -9,16 +9,16 @@ hugoblox:
     mode: system
     pack: default
     colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+      primary: "#1e3a8a"
+      secondary: "#475569"
+      neutral: "#1f2937"
   typography:
-    font: sans
+    pack: academic
     size: md
   layout:
-    radius: md
+    radius: none
     spacing: comfortable
-    avatar_shape: circle
+    avatar_shape: square
   header:
     enable: true
     style: navbar
