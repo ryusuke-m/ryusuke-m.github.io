@@ -1,7 +1,7 @@
 ---
 title: AVI 2026 に参加しました
 summary: Attended AVI 2026
-date: 2023-06-12
+date: 2026-06-12
 authors:
   - me
 tags:

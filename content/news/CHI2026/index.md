@@ -1,7 +1,7 @@
 ---
 title: ACM CHI 2026 に参加しました
 summary: Attended ACM CHI 2026
-date: 2023-04-20
+date: 2026-04-17
 authors:
   - me
 tags:

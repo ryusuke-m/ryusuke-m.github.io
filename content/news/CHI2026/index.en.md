@@ -1,7 +1,7 @@
 ---
 title: Attended ACM CHI 2026
 summary: Attended ACM CHI 2026
-date: 2023-04-20
+date: 2026-04-17
 authors:
   - me
 tags:
@@ -25,7 +25,10 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-I attended [ACM CHI 2026](https://chi2026.acm.org/).
+## Overview
 
+I attended [ACM CHI 2026](https://chi2026.acm.org/) and gave a demo presentation.
 
+## Demo Presentation
 
+I presented a demo on which I am a co-author, based on a collaboration that had been going on for some time.

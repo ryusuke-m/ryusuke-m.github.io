@@ -1,7 +1,7 @@
 ---
 title: UIST 2026 に参加しました
 summary: Attended UIST 2026
-date: 2023-11-07
+date: 2026-11-07
 authors:
   - me
 tags:
@@ -22,7 +22,7 @@ cover:
     height: "80px"
 
 image:
-  caption: '発表の様子)'
+  caption: '(発表の様子)'
 ---
 ## 真面目な概要
 

@@ -1,7 +1,7 @@
 ---
 title: Attended AVI 2026
 summary: Attended AVI 2026
-date: 2023-04-20
+date: 2026-06-12
 authors:
   - me
 tags:
@@ -25,7 +25,6 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-I attended [AVI 2026](https://www.unive.it/web/en/15667/home).
+## Overview
 
-
-
+I gave an oral presentation at [AVI 2026 (18th International Conference on Advanced Visual Interfaces)](https://www.unive.it/web/en/15667/home), held in Italy from June 8 to 12, 2026.
