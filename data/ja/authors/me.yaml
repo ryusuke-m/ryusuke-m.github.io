@@ -6,14 +6,14 @@ name:
   given: 竜輔
   family: 宮崎
   # alternate: Ryusuke Miyazaki
-  # pronunciation: Ryusuke Miyazaki
+  pronunciation: Ryusuke Miyazaki
  
 
 status:
   icon: "🔬"
 role: 博士後期課程
 bio: |
-  東京科学大学 情報理工学院 物質・情報卓越コースの学生です．宮藤研究室でHCI分野の研究を行っています．
+  東京科学大学 情報理工学院 物質・情報卓越コースの学生です．[宮藤研究室](https://www.sar.comp.isct.ac.jp/ja/)でHCI分野の研究を行っています．
 
 affiliations:
   - name: 東京科学大学

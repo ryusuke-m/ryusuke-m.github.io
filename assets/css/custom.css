@@ -12,3 +12,13 @@ main a:not([class]) { text-decoration: underline; text-underline-offset: 2px; }
 [class*="shadow"] { box-shadow: none !important; }
 .page-header { box-shadow: none !important; border-bottom: 1px solid #d1d5db; }
 [class*="shadow-md"], [class*="shadow-sm"], [class*="shadow-lg"]:not([class*="shadow-lg"][class*="fixed"]) { border: 1px solid #e5e7eb; }
+
+/* Icon colors follow the primary (navy) accent */
+a[aria-label^="brands/"], a[aria-label^="academicons/"] { color: rgb(var(--hb-primary-500-rgb)) !important; border-color: rgb(var(--hb-primary-500-rgb) / 0.35) !important; }
+a[aria-label^="brands/"]:hover, a[aria-label^="academicons/"]:hover { background: rgb(var(--hb-primary-500-rgb) / 0.08) !important; }
+.avatar-emoji { display: none; }
+[class*="bg-primary-100"] { background-color: rgb(var(--hb-primary-500-rgb) / 0.08) !important; }
+[class*="bg-primary-100"] svg { color: rgb(var(--hb-primary-500-rgb)); }
+.dark a[aria-label^="brands/"], .dark a[aria-label^="academicons/"] { color: rgb(var(--hb-primary-300-rgb)) !important; border-color: rgb(var(--hb-primary-300-rgb) / 0.4) !important; }
+.dark [class*="bg-primary-100"] svg { color: rgb(var(--hb-primary-300-rgb)); }
+.dark [class*="shadow-md"], .dark [class*="shadow-sm"], .dark .page-header { border-color: rgb(255 255 255 / 0.15); }
