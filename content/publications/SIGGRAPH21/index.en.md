@@ -8,11 +8,11 @@ authors:
 - Ryusuke Miyazaki
 - Kouga Yoshida
 - Toshiki Sato
-publication_types:
-- '1'
+publication_types: ['poster']
 featured: false
 publication: '*Special Interest Group on Computer Graphics and Interactive Techniques Conference Posters*'
 tags:
+- Omnidirectional Display
 - Display
 - Interaction devices
 doi: 10.1145/3450618.3469139
