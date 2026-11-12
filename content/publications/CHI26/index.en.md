@@ -15,6 +15,7 @@ publication: '*Proceedings of the Extended Abstracts of the 2026 CHI Conference 
 tags:
 - Volumetric display
 - Interaction devices
+- Haptics
 doi: 10.1145/3772363.3799151
 links:
 - name: URL

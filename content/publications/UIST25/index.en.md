@@ -3,7 +3,7 @@ title: A Display Method Visible Only During Gaze Fixation on Moving Objects usin
   High-Speed Projection and Striped Pattern
 date: '2025-10-01'
 draft: false
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: '2025-01-01T07:27:41.826688Z'
 authors:
 - Ryusuke Miyazaki
 - Shio Miyafuji

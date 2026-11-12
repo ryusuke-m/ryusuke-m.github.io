@@ -14,6 +14,7 @@ publication: '*2025 IEEE Conference on Virtual Reality and 3D User Interfaces Ab
 tags:
 - High-speed projection
 - Interaction devices
+- PDLC
 doi: 10.1109/vrw66409.2025.00165
 links:
 - name: URL
