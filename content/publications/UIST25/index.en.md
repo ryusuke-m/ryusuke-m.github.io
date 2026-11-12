@@ -9,8 +9,7 @@ authors:
 - Shio Miyafuji
 - Kyeongwan Kim
 - Hideki Koike
-publication_types:
-- '1'
+publication_types: ['demo']
 abstract: 'We present a novel display method that can be perceived only when users
   gaze at the other object moving in a specific direction. This method employs high-speed
   projection of a striped pattern, allowing users to perceive different images corresponding

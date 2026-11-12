@@ -8,8 +8,7 @@ authors:
 - Ryusuke Miyazaki
 - Shio Miyafuji
 - Hideki Koike
-publication_types:
-- '1'
+publication_types: ['demo']
 abstract: Texting while walking, often referred to as a “smartphone zombie”, has become
   a growing social issue that increases the risk of traffic accidents and pedestrian
   collisions. In this study, we propose a novel guidance display system that selectively

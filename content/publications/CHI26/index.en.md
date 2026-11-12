@@ -8,8 +8,7 @@ authors:
 - Ryusuke Miyazaki
 - Shio Miyafuji
 - Hiroyuki Manabe
-publication_types:
-- '1'
+publication_types: ['demo']
 featured: false
 publication: '*Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems*'
 tags:

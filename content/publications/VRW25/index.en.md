@@ -7,8 +7,7 @@ authors:
 - Ryusuke Miyazaki
 - Shio Miyafuji
 - Hideki Koike
-publication_types:
-- '1'
+publication_types: ['workshop']
 abstract: 'This research proposes a novel technology that can change displayed images selectively by placing a PDLC on the screen. This system consists of a high-speed projector and some PDLCs. By intentionally obstructing the projected image, the different images appear on the surface of the PDLC and the screen. This technology is achieved by synchronizing the frequency of projected frames with the transparency of the PDLCs. The projected images contain the calculated inverted frames to display the desired image when no PDLC is held on the screen. This paper explains the method and implementation of a prototype and introduces two application examples: the information visible only through the device, and select arbitrary layer from multi-layered information.'
 featured: false
 publication: '*2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)*'
