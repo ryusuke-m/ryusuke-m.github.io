@@ -18,6 +18,19 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: collection
+    id: activities
+    content:
+      title: 受賞・活動履歴
+      text: 受賞歴・ボランティア・資格などの履歴です．タイトルをクリックすると詳細を表示します．
+      count: 0
+      filters:
+        folders:
+          - activities
+        sort_by: Date
+        sort_ascending: false
+    design:
+      view: date-title-summary
   # - block: resume-skills
   #   content:
   #     title: Skills & Hobbies

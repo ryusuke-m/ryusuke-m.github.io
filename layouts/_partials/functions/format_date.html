@@ -1,0 +1,11 @@
+{{/* Format a date according to the page's `date_precision` front matter (day | month | year).
+     Inputs: dict "date" <time> "precision" <string, optional>
+     Output: string. Falls back to the site-wide date format for `day` or unset. */}}
+{{- $date := .date -}}
+{{- $lang := site.Language.Lang -}}
+{{- if eq .precision "month" -}}
+  {{- return (cond (eq $lang "ja") (time.Format "2006年1月" $date) (time.Format "January 2006" $date)) -}}
+{{- else if eq .precision "year" -}}
+  {{- return (cond (eq $lang "ja") (time.Format "2006年" $date) (time.Format "2006" $date)) -}}
+{{- end -}}
+{{- return (time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $date) -}}

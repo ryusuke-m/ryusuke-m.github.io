@@ -19,6 +19,19 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: collection
+    id: activities
+    content:
+      title: Awards & Activities
+      text: Awards, volunteering, qualifications, and more. Click a title for details.
+      count: 0
+      filters:
+        folders:
+          - activities
+        sort_by: Date
+        sort_ascending: false
+    design:
+      view: date-title-summary
   # - block: resume-skills
   #   content:
   #     title: Skills & Hobbies

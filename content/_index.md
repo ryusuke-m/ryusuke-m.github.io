@@ -45,7 +45,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: '[Featured Publications →](/publications/)'
       filters:
         folders:
           - publications
@@ -55,18 +55,19 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
-      text: ''
+      title: '[受賞・活動（抜粋） →](/experience/#activities)'
+      text: 主な受賞・資格などを抜粋しています．全件は[経歴](/experience/)をご覧ください．
+      count: 0
       filters:
         folders:
-          - publications
-        exclude_featured: false
+          - activities
+        featured_only: true
     design:
-      view: citation
+      view: date-title-summary
   - block: collection
     id: news
     content:
-      title: ニュース
+      title: '[ニュース →](/news/)'
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

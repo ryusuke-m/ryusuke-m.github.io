@@ -1,11 +1,15 @@
 /* Classic academic look: Japanese serif fallbacks, restrained decoration */
 :root {
-  --hb-font-heading: 'Lora', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
-  --hb-font-body: 'Source Serif 4', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
-  --hb-font-nav: var(--hb-font-body);
+  --hb-font-heading: 'BIZ UDPMincho', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif !important;
+  --hb-font-body: 'BIZ UDPMincho', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif !important;
+  --hb-font-nav: 'BIZ UDPMincho', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif !important;
 }
-body { font-family: var(--hb-font-body); }
-h1, h2, h3, h4, h5, h6 { font-family: var(--hb-font-heading); }
+/* Latin letters and digits use the same UD face as the kanji, with lining figures */
+body, h1, h2, h3, h4, h5, h6, nav, button, input {
+  font-family: 'BIZ UDPMincho', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif !important;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "palt" 0;
+}
 main a:not([class]) { text-decoration: underline; text-underline-offset: 2px; }
 #page-bg { display: none; }
 [class*="rounded"], .page-wrapper img { border-radius: 2px !important; }
@@ -22,3 +26,67 @@ a[aria-label^="brands/"]:hover, a[aria-label^="academicons/"]:hover { background
 .dark a[aria-label^="brands/"], .dark a[aria-label^="academicons/"] { color: rgb(var(--hb-primary-300-rgb)) !important; border-color: rgb(var(--hb-primary-300-rgb) / 0.4) !important; }
 .dark [class*="bg-primary-100"] svg { color: rgb(var(--hb-primary-300-rgb)); }
 .dark [class*="shadow-md"], .dark [class*="shadow-sm"], .dark .page-header { border-color: rgb(255 255 255 / 0.15); }
+.navbar-brand { font-weight: 700; }
+
+/* Accessibility: raise contrast of muted text (WCAG AAA 7:1 where possible) */
+:root {
+  --text-muted: #4b5563;        /* 7.6:1 on white */
+  --text-muted-strong: #374151; /* 10.3:1 on white */
+  --focus-ring: #1e3a8a;
+}
+.dark {
+  --text-muted: #d1d5db;        /* ~12:1 on the dark background */
+  --text-muted-strong: #e5e7eb;
+  --focus-ring: #93c5fd;
+}
+.text-gray-400, .text-gray-500, .text-neutral-500, .text-zinc-400, .text-zinc-500,
+.dark .dark\:text-gray-400, .dark .dark\:text-neutral-400, .dark .dark\:text-zinc-400, .dark .dark\:text-zinc-500 {
+  color: var(--text-muted) !important;
+}
+time, .hb-sidebar-custom-link { color: var(--text-muted-strong) !important; }
+.dark .text-gray-400, .dark .text-gray-500, .dark .text-neutral-500, .dark .text-zinc-400, .dark .text-zinc-500 {
+  color: var(--text-muted) !important;
+}
+/* Small supporting text: at least 14px */
+time, .text-xs.text-gray-500, .text-xs.text-neutral-500, .text-xs.text-zinc-500 { font-size: 0.875rem !important; }
+.text-\[0\.6rem\] { font-size: 0.75rem !important; }
+/* Footer and separators: no transparency on text */
+.opacity-80:is(p, span, div, a), .opacity-40:is(span) { opacity: 1 !important; color: var(--text-muted); }
+/* Name ruby (romanization above the name): solid color instead of faded gradient */
+.hb-ruby-name rt {
+  background: none !important;
+  -webkit-text-fill-color: currentColor !important;
+  color: var(--text-muted-strong) !important;
+  opacity: 1 !important;
+}
+/* Visible keyboard focus */
+:focus-visible { outline: 2px solid var(--focus-ring) !important; outline-offset: 2px; }
+/* Dark mode: the navy primary is unreadable on dark backgrounds, use a light blue */
+.dark .text-primary-500, .dark .text-primary-600, .dark .text-primary-700,
+.dark .hover\:text-primary-500:hover, .dark .hover\:text-primary-600:hover { color: #93c5fd !important; }
+.dark main a:not([class]) { color: #93c5fd; }
+/* Article body text: near-black / near-white for maximum contrast */
+.prose, .prose :where(p, li, td, blockquote):not(a) { color: #111827; }
+.dark .prose, .dark .prose :where(p, li, td, blockquote):not(a) { color: #f3f4f6; }
+
+/* Wider content on large screens (>= 1280px); narrower screens keep the theme defaults */
+@media (min-width: 1280px) {
+  .max-w-screen-lg { max-width: 72rem; }
+  .max-w-4xl { max-width: 64rem; }
+  .max-w-3xl:not([class*="mt-[10vh]"]) { max-width: 56rem; }
+  .max-w-prose { max-width: 48rem; }
+  .article-container { max-width: 64rem; }
+  /* Article pages: wider outer frame, main column and body text */
+  .max-w-screen-xl { max-width: 90rem; }
+  main.max-w-6xl { max-width: 80rem; }
+  .prose { max-width: 60rem; }
+}
+@media (min-width: 1700px) {
+  .max-w-screen-lg { max-width: 80rem; }
+  .max-w-4xl { max-width: 72rem; }
+  .max-w-3xl:not([class*="mt-[10vh]"]) { max-width: 60rem; }
+}
+
+/* Section titles that link to a full list */
+.text-3xl.font-bold a { color: inherit; text-decoration: none; border-bottom: 2px solid transparent; }
+.text-3xl.font-bold a:hover, .text-3xl.font-bold a:focus-visible { border-bottom-color: currentColor; }

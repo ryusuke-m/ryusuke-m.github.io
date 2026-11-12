@@ -45,7 +45,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: '[Featured Publications →](/en/publications/)'
       filters:
         folders:
           - publications
@@ -55,14 +55,15 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
-      text: ''
+      title: '[Selected Awards & Activities →](/en/experience/#activities)'
+      text: Selected awards and qualifications. See [Experience](/en/experience/) for the full list.
+      count: 0
       filters:
         folders:
-          - publications
-        exclude_featured: false
+          - activities
+        featured_only: true
     design:
-      view: citation
+      view: date-title-summary
   # - block: collection
   #   id: talks
   #   content:
@@ -75,7 +76,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: '[Recent News →](/en/news/)'
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

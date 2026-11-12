@@ -15,16 +15,16 @@ main:
   #   weight: 12
   - name: 論文
     url: publications/
-    weight: 11
+    weight: 40
   - name: ニュース
     url: /news
-    weight: 13
+    weight: 30
   - name: 経歴
     url: experience/
     weight: 20
   - name: プロジェクト
     url: projects/
-    weight: 30
+    weight: 50
   # - name: Courses
   #   url: courses/
   #   weight: 40
