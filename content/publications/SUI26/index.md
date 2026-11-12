@@ -17,6 +17,7 @@ tags:
 - Volumetric display
 - Projection mapping
 - Interaction devices
+- High-Speed Projector
 doi: 10.1145/3822518.3830063
 links:
 - name: URL
