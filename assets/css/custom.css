@@ -90,3 +90,18 @@ time, .text-xs.text-gray-500, .text-xs.text-neutral-500, .text-xs.text-zinc-500 
 /* Section titles that link to a full list */
 .text-3xl.font-bold a { color: inherit; text-decoration: none; border-bottom: 2px solid transparent; }
 .text-3xl.font-bold a:hover, .text-3xl.font-bold a:focus-visible { border-bottom-color: currentColor; }
+
+/* Publication list: make the title visibly a link */
+.pub-list-item.view-citation > a:not([class]) {
+  color: rgb(var(--hb-primary-500-rgb));
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.pub-list-item.view-citation > a:not([class]):hover,
+.pub-list-item.view-citation > a:not([class]):focus-visible {
+  text-decoration-thickness: 2px;
+  background: rgb(var(--hb-primary-500-rgb) / 0.08);
+}
+.dark .pub-list-item.view-citation > a:not([class]) { color: #93c5fd; }

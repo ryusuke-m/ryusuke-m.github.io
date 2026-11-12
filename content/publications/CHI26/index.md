@@ -1,0 +1,22 @@
+---
+title: 'DIM3: Display as an Interface Medium to Three-dimension with Swept a Bending-Plastic-Plate'
+date: '2026-04-01'
+draft: false
+publishDate: '2026-04-01T00:00:00Z'
+authors:
+- Shinichi Ishihara
+- Ryusuke Miyazaki
+- Shio Miyafuji
+- Hiroyuki Manabe
+publication_types: ['demo']
+abstract: 'Existing volumetric displays do not allow safe bare-hand touch of virtual objects, and even when a hand can enter the volumetric space, force feedback from the virtual objects is not provided. Consequently, real-world–like physical interaction has not yet been achieved. In this demonstration, we propose DIM3, which enables bare-hand touch and manipulation of virtual objects while providing force feedback at the point of touch, and we introduce a novel interaction technique enabled by it. DIM3 employs a swept-volume approach by driving a single plastic plate with moderate bending elasticity in reciprocating motion while bending it, allowing safe contact and force feedback at the touched location. Moreover, DIM3 detects the finger’s depth position via intermittent contact between the screen and the finger, enabling virtual object manipulation in which the input and output spaces coincide.'
+featured: false
+publication: '*Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems*'
+tags:
+- Volumetric display
+- Interaction devices
+doi: 10.1145/3772363.3799151
+links:
+- name: URL
+  url: https://doi.org/10.1145/3772363.3799151
+---

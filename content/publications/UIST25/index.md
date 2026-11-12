@@ -9,7 +9,7 @@ authors:
 - Shio Miyafuji
 - Kyeongwan Kim
 - Hideki Koike
-publication_types: ['paper-conference']
+publication_types: ['demo']
 
 abstract: 'We present a novel display method that can be perceived only when users
   gaze at the other object moving in a specific direction. This method employs high-speed
