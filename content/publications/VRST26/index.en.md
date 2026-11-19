@@ -14,9 +14,8 @@ featured: false
 publication: '*Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology*'
 tags:
 - Volumetric display
-- Swept bending screen
+- Haptics
 - Touch interaction
-- Force feedback
 - High-speed projection
 - Spatial augmented reality
 doi: 10.1145/3822517.3848663
@@ -24,3 +23,5 @@ links:
 - name: URL
   url: https://doi.org/10.1145/3822517.3848663
 ---
+
+This is a joint research project with the [Manabe Laboratory](https://pai.eng.shibaura-it.ac.jp/) at Shibaura Institute of Technology.
