@@ -230,6 +230,20 @@
       {{ end }}
       {{end}}
 
+      {{/* Publications: show the Markdown body (e.g. collaboration notes) above the abstract and metadata */}}
+      {{ $content_first := eq .Type "publications" }}
+      {{ if $content_first }}
+        <div class="prose prose-slate lg:prose-xl dark:prose-invert" data-pagefind-body>
+          {{ with .Section }}
+            <span data-pagefind-filter="type" style="display:none;">{{ . }}</span>
+          {{ end }}
+          {{ with .Params.categories }}
+            <span data-pagefind-filter="category" style="display:none;">{{ index . 0 }}</span>
+          {{ end }}
+          {{ .Content }}
+        </div>
+      {{ end }}
+
       {{/* EVENT / PUBLICATION METADATA */}}
       {{ if .Params.abstract | or (eq .Type "publications") | or (eq .Type "events") }}
         <div class="max-w-prose grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
@@ -285,6 +299,7 @@
       </div>
       {{ end }}
 
+{{- if not $content_first }}
       <div class="prose prose-slate lg:prose-xl dark:prose-invert" data-pagefind-body>
         {{ with .Section }}
           <span data-pagefind-filter="type" style="display:none;">{{ . }}</span>
@@ -294,6 +309,7 @@
         {{ end }}
         {{ .Content }}
       </div>
+{{- end }}
 
       {{ partial "components/last-edited.html" . }}
 

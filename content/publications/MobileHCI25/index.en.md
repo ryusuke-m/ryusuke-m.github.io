@@ -29,7 +29,6 @@ tags:
 - Interaction devices
 - Human perception
 - Gaze
-- Smartphone
 - Mobile devices
 doi: 10.1145/3737821.3748531
 links:
