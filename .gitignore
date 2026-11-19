@@ -67,3 +67,11 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# ============================================================================
+# Working folder (never committed or published)
+# ============================================================================
+
+# Scratch area for drafts, conversions and notes. Keep confidential documents
+# outside the repository instead (e.g. ../samples_NOpublic/).
+/temp/
